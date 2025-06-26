@@ -20,7 +20,7 @@ async function sendHourlyMessage(channel) {
     await new Promise(resolve => setTimeout(resolve, delay));
 
     const currentTime = getCurrentTime();
-    const message = `⏰ Hourly message at ${currentTime} (with delay)`;
+    const message = `,drop`;
 
     try {
         await channel.send(message);
