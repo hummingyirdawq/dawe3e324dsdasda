@@ -1,6 +1,6 @@
 const { Client } = require("discord.js-selfbot-v13");
 const client = new Client();
-const CHANNEL_ID = '123456789012345678'; // Replace with your channel ID
+const CHANNEL_ID = '1372504359778385930'; // Replace with your channel ID
 
 function getCurrentTime() {
     const now = new Date();
