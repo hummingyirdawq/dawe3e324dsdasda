@@ -47,4 +47,4 @@ client.on("ready", async () => {
 });
 
 // ⚠️ Use at your own risk
-client.login("YOUR_USER_TOKEN_HERE");
+client.login(process.env.TOKEN);
